@@ -1,0 +1,11 @@
+cat << 'EOF' > .gitignore
+# Ignore compiled binaries and object files
+server
+src/*.o
+
+# Ignore temporary editor files
+.DS_Store
+*~
+EOF
+PAT.c
+src/PAT.c
